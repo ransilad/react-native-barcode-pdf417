@@ -14,6 +14,7 @@ export default class RNPDF417 extends Component {
       this.setState({
         isLoading: false
       });
+      this.props.onLoad();
     });
   }
 
