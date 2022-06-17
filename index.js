@@ -49,7 +49,7 @@ export default class RNPDF417 extends Component {
     });
 
     return (
-      <Surface width={width} height={height}>
+      <Surface width={width} height={height} style={{backgroundColor: '#FFFFFF'}}>
         <Group x={0} y={0}>
           <Shape d={shapes} fill="#000000" />
         </Group>
